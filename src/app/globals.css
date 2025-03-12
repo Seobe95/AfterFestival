@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -39,4 +41,49 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+@theme {
+  /** POINT COLORS **/
+  --color-primary-100: #f4d9dd;
+  --color-primary-200: #d88c97;
+  --color-primary-300: #b55462;
+  /** HOVER COLOR **/
+  --color-primary-400: #9c283a;
+  --color-primary-500: #8b1e2d;
+
+  --color-secondary-100: #eae4f2;
+  --color-secondary-200: #c8bbd6;
+  --color-secondary-300: #9d7faf;
+  /** HOVER COLOR **/
+  --color-secondary-400: #59455e;
+  --color-secondary-500: #3e2c41;
+
+  --color-accent-100: #ffe5b4;
+  --color-accent-200: #ffab40;
+  --color-accent-300: #ff6d00;
+  /** HOVER COLOR **/
+  --color-accent-400: #ff5400;
+  --color-accent-500: #e65100;
+
+  /** LIGHT MODE **/
+  --color-background-light: #ffffff;
+  --color-primarytxt-light: #000000;
+  --color-secondarytxt-light: #4b5563;
+  --color-mutedtxt-light: #9ca3af;
+
+  --color-cardBg-light: #f3f4f6;
+  --color-cardHover-light: #e5e7eb;
+  --color-border-light: #d1d5db;
+
+  /** DARK MODE **/
+  --color-background-dark: #121212;
+
+  --color-primarytxt-dark: #ffffff;
+  --color-secondarytxt-dark: #d1d5db;
+  --color-mutedtxt-dark: #6b7280;
+
+  --color-cardBg-dark: #1e1e1e;
+  --color-cardHover-dark: #292929;
+  --color-border-dark: #374151;
 }
