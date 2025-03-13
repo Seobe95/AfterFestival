@@ -18,8 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${notoSansKr.className} max-md:1080px`}>
-        {children}
+      <body
+        className={`${notoSansKr.className} bg-background-light dark:bg-background-dark`}
+      >
+        <div className="flex h-full items-center justify-center">
+          {children}
+        </div>
       </body>
     </html>
   );
