@@ -2,20 +2,21 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #121212;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #121212;
+    --foreground: #ffffff;
   }
 }
 
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  height: 100%;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -28,8 +29,6 @@ body {
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 a {
@@ -48,21 +47,18 @@ a {
   --color-primary-100: #f4d9dd;
   --color-primary-200: #d88c97;
   --color-primary-300: #b55462;
-  /** HOVER COLOR **/
   --color-primary-400: #9c283a;
   --color-primary-500: #8b1e2d;
 
   --color-secondary-100: #eae4f2;
   --color-secondary-200: #c8bbd6;
   --color-secondary-300: #9d7faf;
-  /** HOVER COLOR **/
   --color-secondary-400: #59455e;
   --color-secondary-500: #3e2c41;
 
   --color-accent-100: #ffe5b4;
   --color-accent-200: #ffab40;
   --color-accent-300: #ff6d00;
-  /** HOVER COLOR **/
   --color-accent-400: #ff5400;
   --color-accent-500: #e65100;
 
@@ -74,7 +70,7 @@ a {
 
   --color-cardBg-light: #f3f4f6;
   --color-cardHover-light: #e5e7eb;
-  --color-border-light: #d1d5db;
+  --color-borderLine-light: #d1d5db;
 
   /** DARK MODE **/
   --color-background-dark: #121212;
@@ -85,5 +81,22 @@ a {
 
   --color-cardBg-dark: #1e1e1e;
   --color-cardHover-dark: #292929;
-  --color-border-dark: #374151;
+  --color-borderLine-dark: #374151;
+
+  --color-kakao-container: #fee500;
+  --color-kakao-containerHover: #fff280;
+  --color-kakao-symbol: #000000;
+
+  --color-google-container: #ffffff;
+  --color-google-symbol: #1f1f1f;
+  --color-google-container-dark: #131314;
+  --color-google-container-dark-hover: #1a1a1c;
+  --color-google-symbol-dark: #e3e3e3;
+  --color-google-stroke: #747775;
+  --color-google-stroke-dark: #8e918f;
+
+  --color-header-container: #f8f9fa;
+  --color-header-title: #212529;
+  --color-header-container-dark: #3c3f41;
+  --color-header-title-dark: #e9ecef;
 }
