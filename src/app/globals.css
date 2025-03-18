@@ -47,21 +47,18 @@ a {
   --color-primary-100: #f4d9dd;
   --color-primary-200: #d88c97;
   --color-primary-300: #b55462;
-  /** HOVER COLOR **/
   --color-primary-400: #9c283a;
   --color-primary-500: #8b1e2d;
 
   --color-secondary-100: #eae4f2;
   --color-secondary-200: #c8bbd6;
   --color-secondary-300: #9d7faf;
-  /** HOVER COLOR **/
   --color-secondary-400: #59455e;
   --color-secondary-500: #3e2c41;
 
   --color-accent-100: #ffe5b4;
   --color-accent-200: #ffab40;
   --color-accent-300: #ff6d00;
-  /** HOVER COLOR **/
   --color-accent-400: #ff5400;
   --color-accent-500: #e65100;
 
@@ -95,5 +92,11 @@ a {
   --color-google-container-dark: #131314;
   --color-google-container-dark-hover: #1a1a1c;
   --color-google-symbol-dark: #e3e3e3;
-  --color-google-stroke: #8e918f;
+  --color-google-stroke: #747775;
+  --color-google-stroke-dark: #8e918f;
+
+  --color-header-container: #f8f9fa;
+  --color-header-title: #212529;
+  --color-header-container-dark: #3c3f41;
+  --color-header-title-dark: #e9ecef;
 }

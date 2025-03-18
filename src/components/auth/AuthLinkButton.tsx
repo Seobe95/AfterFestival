@@ -11,17 +11,17 @@ function AuthLinkButton({
   buttonType = "email",
   ...props
 }: AuthLinkButtonProps) {
-  let buttonSizeStyle = "max-w-20 h-8";
+  let buttonSizeStyle = "px-4 h-8";
   if (size === "middle") buttonSizeStyle = "max-w-20 w-full ";
   if (size === "large") buttonSizeStyle = "w-full";
 
-  let buttonColorStyle = "bg-primary-500 hover:bg-primary-400";
+  let buttonColorStyle = `bg-primary-300 hover:bg-primary-200`;
   if (buttonType === "signup")
-    buttonColorStyle = "bg-secondary-500 hover:bg-secondary-400";
+    buttonColorStyle = `bg-secondary-300 hover:bg-secondary-200`;
 
   return (
     <a
-      className={`flex cursor-pointer items-center justify-center rounded-lg py-2 font-semibold ${buttonSizeStyle} ${buttonColorStyle}`}
+      className={`text-primarytxt-dark flex cursor-pointer items-center justify-center rounded-lg py-2 text-sm font-semibold ${buttonSizeStyle} ${buttonColorStyle} `}
       {...props}
     >
       {label}
